@@ -134,7 +134,8 @@ source_profile = root
 role_arn=arn:aws:iam::123456789:role/developers
 source_identity=your_user_name
 ```
-
+[default]
+region=us-east-1
 
 ### Environment variables
 
