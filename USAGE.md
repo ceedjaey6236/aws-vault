@@ -77,8 +77,8 @@ region=eu-west-1
 mfa_serial=arn:aws:iam::123456789:mfa/johnsmith
 source_profile = root
 
-[profile root]
-include_profile = common
+[default]
+region=us-east-1
 
 [profile order-dev]
 include_profile = common
